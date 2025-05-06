@@ -73,7 +73,9 @@ export default function Header() {
             </a>
           </div>
 
-          <div className="text-lg sm:text-xl md:text-2xl font-bold cursor-default font-poppins">
+          <div
+            className={`text-lg sm:text-xl md:text-2xl font-bold cursor-default font-poppins`}
+          >
             <span
               className={` sm:inline transition-colors duration-500 ${
                 scrolled ? "text-black" : "text-green-500"
@@ -146,7 +148,7 @@ export default function Header() {
       {/* Mobile Menu */}
       <div
         id="mobile-menu"
-        className={`md:hidden fixed top-0 right-0 h-full w-64 bg-[#453108] shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+        className={`md:hidden fixed top-0 right-0 h-full w-full bg-[#453108] shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
           // Changed background to solid brown
           isMobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
