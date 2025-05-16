@@ -1,5 +1,5 @@
 import Image from "next/image";
-import about from "@/public/about.jpg";
+import about from "@/public/about2.jpg";
 
 export default function About() {
   return (
@@ -12,14 +12,19 @@ export default function About() {
           <div className="w-full md:w-3/5 px-6 sm:px-10 md:px-16 h-full text-black flex items-center mb-10 md:mb-0">
             <div className="text-center md:text-left">
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold pb-5">
-                THE HEADING
+                WELCOME TO <span className="text-orange-400">THE</span>{" "}
+                <span className="text-green-400">EXPRESS</span>{" "}
+                <span className="text-yellow-400">CHAKKI</span>
               </h1>
 
-              <p className="text-lg sm:text-xl md:text-2xl">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Doloremque natus, voluptas officiis perspiciatis iste eos animi
-                maxime ex magni, expedita optio nam magnam, voluptatem vitae
-                minus atque? Unde, nobis eos.
+              <p className="text-lg sm:text-xl md:text-xl">
+                At The Express Chakki, we’re more than just a mill — we’re a
+                movement to bring back the freshness and purity of home-ground
+                ingredients. From aromatic spices to nutrient-rich flours, every
+                batch is milled just for you. We go beyond the basics. Our range
+                of vital foods and drinks for kids is thoughtfully crafted to
+                support healthy growth and development — because we know how
+                important it is to nourish your family with only the best.
               </p>
             </div>
           </div>
@@ -28,7 +33,7 @@ export default function About() {
             <Image
               src={about}
               alt="Wheat Flour Image"
-              className="rounded-3xl w-full h-auto max-w-md md:max-w-full"
+              className="rounded-3xl w-full h-[80%] max-w-md md:max-w-full"
             />{" "}
             {/* for image scales */}
           </div>

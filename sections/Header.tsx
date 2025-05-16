@@ -51,15 +51,11 @@ export default function Header() {
     <header
       className={`w-full sticky top-0 border-b-2 border-black z-20 transition-colors duration-500 ${
         scrolled
-          ? "bg-[#b7a99192] backdrop-blur-3xl"
-          : "bg-transparent backdrop-blur-3xl"
+          ? "bg-[#3B281C] bg-opacity-5 backdrop-blur-3xl"
+          : "bg-[#3B281C] bg-opacity-5 backdrop-blur-3xl"
       }`}
     >
-      <div
-        className={`max-w-7xl px-4 h-[14vh] mx-auto flex items-center justify-center transition-colors duration-500 ${
-          scrolled ? "text-black" : "text-white"
-        }`}
-      >
+      <div className="max-w-7xl px-4 h-[14vh] mx-auto flex items-center justify-center transition-colors duration-500 text-white">
         <div className="w-full flex items-center justify-between">
           <div className="bg-white p-1 rounded-md shadow-sm">
             <a href="#">
@@ -68,21 +64,16 @@ export default function Header() {
                 alt="logo"
                 width={60}
                 height={50}
-                className="cursor-pointer"
+                className="cursor-pointer rounded-full"
               />
             </a>
           </div>
 
           <div
-            className={`text-lg sm:text-xl md:text-2xl font-bold cursor-default font-poppins`}
+            className={`text-3xl sm:text-lg md:text-3xl font-bold cursor-default font-poppins`}
           >
-            <span
-              className={` sm:inline transition-colors duration-500 ${
-                scrolled ? "text-black" : "text-green-500"
-              }`}
-            >
-              Express
-            </span>{" "}
+            <span className="text-orange-400">The</span>{" "}
+            <span className="text-green-500">Express</span>{" "}
             <span className="text-yellow-400">Chakki</span>
           </div>
 
@@ -91,7 +82,7 @@ export default function Header() {
             <li>
               <a
                 href="#home"
-                className="px-3 py-1 rounded-md hover:bg-yellow-800 hover:text-white transition-colors duration-200"
+                className="px-3 py-1 rounded-md hover:bg-yellow-800 hover:text-white"
               >
                 Home
               </a>
@@ -106,7 +97,8 @@ export default function Header() {
             </li>
             <li>
               <a
-                href="#menu"
+                href="https://wa.me/c/919923000686"
+                target="_blank"
                 className="px-3 py-1 rounded-md hover:bg-yellow-800 hover:text-white transition-colors duration-200"
               >
                 Menu
@@ -129,11 +121,7 @@ export default function Header() {
               onClick={toggleMobileMenu}
               aria-controls="mobile-menu"
               aria-expanded={isMobileMenuOpen}
-              className={`p-2 rounded-md hover:bg-black/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white ${
-                scrolled
-                  ? "text-black hover:text-gray-700"
-                  : "text-white hover:text-gray-300"
-              }`}
+              className="p-2 rounded-md hover:bg-black/10 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white text-white"
             >
               <span className="sr-only">Open main menu</span>
               <FontAwesomeIcon
@@ -185,7 +173,7 @@ export default function Header() {
               About
             </a>
             <a
-              href="#menu"
+              href="https://wa.me/c/919923000686"
               onClick={() => setIsMobileMenuOpen(false)}
               className="block px-3 py-2 rounded-md text-base font-medium text-left text-[#F9EBD3] hover:bg-[#6a4a0c] hover:text-white"
             >

@@ -4,7 +4,7 @@ import About from "@/sections/About";
 import More from "@/sections/More";
 import Footer from "@/sections/Footer";
 import Image from "next/image";
-import herobg from "@/public/hero-section3.jpg";
+import herobg from "@/public/hero-section4.jpg";
 
 export default function Home() {
   return (
