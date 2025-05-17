@@ -57,24 +57,30 @@ export default function Header() {
     >
       <div className="max-w-7xl px-4 h-[14vh] mx-auto flex items-center justify-center transition-colors duration-500 text-white">
         <div className="w-full flex items-center justify-between">
-          <div className="bg-white p-1 rounded-md shadow-sm">
-            <a href="#">
-              <Image
-                src={logo}
-                alt="logo"
-                width={60}
-                height={50}
-                className="cursor-pointer rounded-full"
-              />
-            </a>
-          </div>
-
-          <div
-            className={`text-3xl sm:text-lg md:text-3xl font-bold cursor-default font-poppins`}
-          >
-            <span className="text-orange-400">The</span>{" "}
-            <span className="text-green-500">Express</span>{" "}
-            <span className="text-yellow-400">Chakki</span>
+          <div className="flex gap-4">
+            <div className="bg-white p-1 rounded-md shadow-sm">
+              <a href="#">
+                <Image
+                  src={logo}
+                  alt="logo"
+                  width={60}
+                  height={50}
+                  className="cursor-pointer rounded-full"
+                />
+              </a>
+            </div>
+            <div
+              className={`gap-2 text-3xl flex items-center flex-col sm:text-lg md:text-3xl font-bold cursor-default font-poppins`}
+            >
+              <div>
+                <span className="text-orange-400">The</span>{" "}
+                <span className="text-green-500">Express</span>{" "}
+                <span className="text-yellow-400">Chakki</span>
+              </div>
+              <p className="text-base dancing-script-1">
+                "Blending Your Own Taste"
+              </p>
+            </div>
           </div>
 
           {/* Desktop Menu */}

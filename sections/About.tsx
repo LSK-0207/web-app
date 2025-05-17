@@ -5,13 +5,13 @@ export default function About() {
   return (
     <section
       id="about"
-      className="scroll-mt-4 w-full h-[85vh] border-b-black border-b-1 z-20 py-16 md:py-0" // Use min-h-screen and add padding for smaller screens
+      className="scroll-mt-4 w-full h-[85vh] border-b-black border-b-1 z-20 py-16 md:py-0"
     >
       <div className="max-w-7xl mx-auto h-full">
         <div className="flex flex-col md:flex-row h-full items-center">
           <div className="w-full md:w-3/5 px-6 sm:px-10 md:px-16 h-full text-black flex items-center mb-10 md:mb-0">
             <div className="text-center md:text-left">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold pb-5">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold pb-5 text-[#3B281C]">
                 WELCOME TO <span className="text-orange-400">THE</span>{" "}
                 <span className="text-green-400">EXPRESS</span>{" "}
                 <span className="text-yellow-400">CHAKKI</span>

@@ -4,8 +4,7 @@ export default function Hero() {
       <div className="h-full">
         <div className="w-full h-full flex flex-col gap-72 items-center justify-center">
           <div>
-            {/* Adjusted text size, padding, and added text-center */}
-            <h3 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-mono font-extrabold bg-black/50 px-2 sm:px-3 md:px-4 py-1 sm:py-2 md:py-3 rounded-2xl sm:rounded-3xl text-center">
+            <h3 className="text-white mt-10 text-3xl sm:text-4xl md:text-5xl lg:text-6xl merriweather-bold font-extrabold bg-black/50 px-2 sm:px-3 md:px-4 py-1 sm:py-2 md:py-3 rounded-2xl sm:rounded-3xl text-center">
               Feel <span className="text-green-400">alive</span> in every{" "}
               <span className="text-yellow-500">bite</span>.
             </h3>

@@ -8,8 +8,8 @@ export default function More() {
         <div className="flex flex-col md:flex-row-reverse h-full items-center">
           <div className="w-full md:w-3/5 px-6 sm:px-10 md:px-16 h-full text-black flex items-center mb-10 md:mb-0">
             <div className="text-center md:text-left">
-              <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold pb-5">
-                A <span className="text-green-400">FRESH MILLING</span>{" "}
+              <h1 className="text-4xl text-[#3B281C] sm:text-5xl md:text-6xl font-semibold pb-5">
+                A <span className="text-green-700">FRESH MILLING</span>{" "}
                 EXPERIENCE
               </h1>
 
