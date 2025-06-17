@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <div>
               <a
-                href="https://maps.app.goo.gl/28jZh1QV7YQoRBzi6"
+                href="https://maps.app.goo.gl/utf5ZjFnmcp4fXHY8?g_st=aw"
                 target="_blank"
                 className="text-green-400"
               >
