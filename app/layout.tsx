@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Geist, Geist_Mono, Poppins } from "next/font/google"; // Import Poppins
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
+import TagLine from "@/components/TagLine";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,9 +39,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`} // Add poppins variable
+        className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased scroll-smooth`} // Add poppins variable
       >
+        <TagLine />
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
