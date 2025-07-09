@@ -23,7 +23,12 @@ const HeroSection = () => {
 
       {/* IMAGE CONTAINER */}
       <div className="h-1/2 w-full relative lg:h-full lg:w-1/2">
-        <Image src="/hero-section.jpg" alt="" fill className="object-cover" />
+        <Image
+          src="/hero-section.jpg"
+          alt="hero section image"
+          fill
+          className="object-cover"
+        />
       </div>
     </div>
   );

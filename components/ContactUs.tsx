@@ -14,7 +14,7 @@ const ContactUs = () => {
           <div className="h-full w-full relative">
             <Image
               src="/Store-location.jpg"
-              alt=""
+              alt="Store Location"
               fill
               className="object-cover rounded-4xl hover:scale-90 transition duration-300"
             />
@@ -22,7 +22,7 @@ const ContactUs = () => {
           <div className="h-full w-full relative">
             <Image
               src="/Store-view.jpg"
-              alt=""
+              alt="Store view"
               fill
               className="object-cover rounded-4xl hover:scale-90 transition duration-300"
             />
