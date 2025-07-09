@@ -24,7 +24,7 @@ const About = () => {
           nourish your family with only the best.&rdquo;
         </div>
         <Link href="/menu">
-          <button className="py-2 px-4 md:py-4 md:px-6 text-white text-sm md:text-base bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce]">
+          <button className="py-2 px-4 md:py-4 md:px-6 text-white text-sm md:text-base bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce] hover:scale-105 focus:outline-2 focus:outline-offset-2 focus:outline-black active:bg-gray-500 ">
             Explore Our Menu
           </button>
         </Link>
@@ -58,7 +58,7 @@ const About = () => {
             across Navi Mumbai with unmatched freshness and authenticity.
           </div>
           <Link href="#contact">
-            <button className="px-4 py-2 md:py-2 md:px-6 text-white text-sm md:text-base bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce]">
+            <button className="px-4 py-2 md:py-2 md:px-6 text-white text-sm md:text-base bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce] hover:scale-105 focus:outline-2 focus:outline-offset-2 focus:outline-black active:bg-gray-500">
               Contact Us
             </button>
           </Link>

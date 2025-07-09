@@ -15,7 +15,7 @@ const CatalougeCard = () => {
           redirected to our WhatsApp catalogue page.
         </p>
         <Link href="https://wa.me/c/919923000686">
-          <button className="px-4 py-2 md:py-2 md:px-6 text-white text-sm md:text-base bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce]">
+          <button className="px-4 py-2 md:py-2 md:px-6 text-white text-sm md:text-base bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce] hover:scale-105 focus:outline-2 focus:outline-offset-2 focus:outline-black active:bg-gray-500">
             Click here
           </button>
         </Link>
