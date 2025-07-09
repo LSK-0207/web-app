@@ -31,7 +31,7 @@ const HeroSection = () => {
           </div>
           <h5 className=" flex flex-row gap-3 font-semibold md:text-base items-center">
             Call Us At:
-            <span className="py-2 px-4 text-xs md:text-base rounded-full bg-black text-white font-semibold">
+            <span className="py-2 px-4 text-xs md:text-base rounded-full hover:scale-105 transition duration-200 bg-black text-white font-semibold hover:outline-2 hover:outline-offset-2 hover:outline-black">
               +91 9923000686
             </span>
           </h5>

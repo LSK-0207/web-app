@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Geist, Geist_Mono, Poppins } from "next/font/google"; // Import Poppins
+import { Geist, Geist_Mono, Poppins, Inter } from "next/font/google"; // Import Poppins
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TagLine from "@/components/TagLine";
@@ -22,6 +22,12 @@ const poppins = Poppins({
   variable: "--font-poppins",
 });
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
 export const metadata: Metadata = {
   title: "the express chakki",
   description:
@@ -37,7 +43,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en" className={`${inter.className} scroll-smooth`}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased scroll-smooth`} // Add poppins variable
       >

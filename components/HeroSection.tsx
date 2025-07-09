@@ -15,7 +15,7 @@ const HeroSection = () => {
           Families, the <span className="text-[#edc336]">Traditional Way</span>
         </h1>
         <Link href="/menu/#order">
-          <button className="bg-red-500 hover:bg-red-400 text-xs md:text-sm lg:text-base cursor-pointer py-4 px-8 text-white rounded-lg">
+          <button className="bg-red-500 hover:bg-red-400 text-xs md:text-sm lg:text-base cursor-pointer py-4 px-8 text-white rounded-lg hover:scale-105 focus:outline-2 focus:outline-offset-2 focus:outline-black active:bg-gray-500">
             Order Now
           </button>
         </Link>

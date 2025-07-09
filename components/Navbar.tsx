@@ -15,7 +15,7 @@ const Navbar = () => {
             alt=""
             width={45}
             height={45}
-            className="md:w-[80px] md:h-[80px] object-cover"
+            className="md:w-[80px] md:h-[80px] object-cover hover:rotate-[360deg] transition duration-500"
           />
         </Link>
         <Link href="/">
@@ -34,11 +34,31 @@ const Navbar = () => {
       </div>
 
       {/* LEFT LINKS */}
-      <div className="hidden md:flex md:gap-4 md:items-center font-semibold">
-        <Link href="/">HOME</Link>
-        <Link href="/#about">ABOUT</Link>
-        <Link href="/menu">MENU</Link>
-        <Link href="#contact">CONTACT US</Link>
+      <div className="hidden md:flex md:gap-8 md:items-center font-semibold">
+        <Link
+          href="/"
+          className=" hover:scale-90 hover:border-t hover:border-b hover:border-black transition duration-300"
+        >
+          HOME
+        </Link>
+        <Link
+          href="/#about"
+          className=" hover:scale-90 hover:border-t hover:border-b hover:border-black transition duration-300"
+        >
+          ABOUT
+        </Link>
+        <Link
+          href="/menu"
+          className=" hover:scale-90 hover:border-t hover:border-b hover:border-black transition duration-300"
+        >
+          MENU
+        </Link>
+        <Link
+          href="#contact"
+          className=" hover:scale-90 hover:border-t hover:border-b hover:border-black transition duration-300"
+        >
+          CONTACT US
+        </Link>
       </div>
     </div>
   );

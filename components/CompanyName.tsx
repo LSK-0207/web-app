@@ -2,7 +2,7 @@ import React from "react";
 
 const CompanyName = () => {
   return (
-    <div className="flex gap-1">
+    <div className="flex gap-1 font-bold">
       <span className="text-orange-500">The</span>
       <span className="text-green-500">Express</span>
       <span className="text-[#f4c033]">Chakki</span>
