@@ -15,13 +15,13 @@ const Navbar = () => {
             alt=""
             width={45}
             height={45}
-            className="md:w-[80px] md:h-[80px] object-cover hover:rotate-[360deg] transition duration-500"
+            className="md:w-[80px] md:h-[80px] object-cover hover:-rotate-z-[-360deg] hover:scale-150 transition duration-700"
           />
         </Link>
         <Link href="/">
           <div className="flex flex-col">
             <CompanyName />
-            <span className="text-[10px] pl-1 font-semibold md:text-[15px]">
+            <span className="text-[10px] pl-1 font-semibold md:text-[12px]">
               Blending Your Own Taste
             </span>
           </div>
