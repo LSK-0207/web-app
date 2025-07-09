@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link href="/">
           <Image
             src="/logo.png"
-            alt=""
+            alt="logo"
             width={45}
             height={45}
             className="md:w-[80px] md:h-[80px] object-cover hover:-rotate-z-[-360deg] hover:scale-150 transition duration-700"

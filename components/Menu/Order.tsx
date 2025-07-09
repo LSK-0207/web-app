@@ -34,7 +34,7 @@ const Order = () => {
             <Link href="https://wa.me/c/919923000686">
               <Image
                 src="/qr.png"
-                alt=""
+                alt="QR Code"
                 fill
                 className="object-contain hover:scale-110 transition duration-300"
               />
@@ -60,7 +60,7 @@ const Order = () => {
             wholesome meal started!
           </div>
 
-          <Link href="https://wa.me/c/919923000686">
+          <Link href="https://wa.me/c/919923000686" target="_blank">
             <button className="px-4 py-2 md:py-2 md:px-6 text-white text-sm md:text-lg lg:text-xl bg-black rounded-full cursor-pointer hover:bg-[#2c2b2bce] hover:scale-105 focus:outline-2 focus:outline-offset-2 focus:outline-black active:bg-gray-500">
               Click here
             </button>

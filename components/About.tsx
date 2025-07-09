@@ -37,7 +37,7 @@ const About = () => {
           <div className="h-full w-full rounded-lg relative flex-1 ">
             <Image
               src="/about2.jpg"
-              alt=""
+              alt="About Us"
               fill
               className="object-cover  rounded-4xl"
             />
