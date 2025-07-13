@@ -30,7 +30,7 @@ const FeaturedOtherProducts = () => {
               <p className="p-4">{item.desc}</p>
               <div>
                 <span className="text-xl font-bold pr-5 ">{item.quantity}</span>
-                <span className="text-xl font-bold">{item.price}</span>
+                {/* <span className="text-xl font-bold">{item.price}</span> */}
               </div>
             </div>
           </div>
