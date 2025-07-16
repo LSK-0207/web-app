@@ -7,15 +7,16 @@ import CompanyName from "./CompanyName";
 const Navbar = () => {
   return (
     <div className="max-w-[90rem] mx-auto h-16 md:h-24 flex items-center justify-between p-4 md:px-10 lg:px-20 ">
-      {/* LOGO */}
+      {/* logo */}
       <div className="flex items-center justify-center gap-2 md:text-lg md:font-semibold">
         <Link href="/">
           <Image
+            priority
             src="/logo.png"
             alt="logo"
-            width={45}
-            height={45}
-            className="md:w-[80px] md:h-[80px] object-cover hover:-rotate-z-[-360deg] hover:scale-150 transition duration-700"
+            width={70}
+            height={70}
+            className="md:w-[100px] md:h-[100px] object-contain hover:-rotate-z-[-360deg] hover:scale-150 transition duration-700"
           />
         </Link>
         <Link href="/">

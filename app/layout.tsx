@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Geist, Geist_Mono, Poppins, Inter } from "next/font/google"; // Import Poppins
+import { Geist, Geist_Mono, Poppins, Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TagLine from "@/components/TagLine";
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   description:
     "We combine traditional values with modern convenience to deliver a personalized milling experience",
   icons: {
-    icon: "/logo.jpg",
+    icon: "/main-icon.png",
   },
 };
 

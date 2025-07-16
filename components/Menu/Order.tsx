@@ -31,7 +31,7 @@ const Order = () => {
         {/* IMAGE CONTAINER */}
         <div className="flex-1 px-2 flex items-center justify-center">
           <div className="relative h-3/4 w-3/4 md:h-1/2 md:w-1/2 flex items-center justify-center ">
-            <Link href="https://wa.me/c/919923000686">
+            <Link href="https://wa.me/c/919923000686" target="_blank">
               <Image
                 src="/qr.png"
                 alt="QR Code"
@@ -44,7 +44,8 @@ const Order = () => {
         {/* TEXT CONTAINER */}
         <div className="flex-1 flex flex-col items-center justify-center py-8 md:px-4 gap-6 text-center">
           <h1 className="text-xl md:text-3xl lg:text-4xl font-bold uppercase ">
-            <span className="text-green-600">scan</span> the{" "}
+            <span className="text-green-600">scan</span> OR{" "}
+            <span className="text-green-600">Click</span> the{" "}
             <span className="text-green-600">qr</span> code
           </h1>
           <div className="text-sm md:text-base lg:text-lg font-semibold py-4 px-6 md:px-8 lg:px-14">

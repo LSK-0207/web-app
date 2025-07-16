@@ -12,9 +12,9 @@ const Footer = () => {
             <Image
               src="/logo.png"
               alt="logo"
-              width={45}
-              height={45}
-              className="md:w-[80px] md:h-[80px] object-cover  hover:-rotate-z-[-360deg] hover:scale-150 transition duration-700"
+              width={68}
+              height={68}
+              className="md:w-[95px] md:h-[95px] object-cover  hover:-rotate-z-[-360deg] hover:scale-150 transition duration-700"
             />
             <CompanyName />
           </div>

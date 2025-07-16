@@ -35,8 +35,8 @@ const ContactUs = () => {
           Our store address
         </h1>
         <div className="text-lg font-semibold lg:text-lg">
-          Shop No 10 Plot No 19 Sector 17 Tejas Heights CHS Co Op Housing
-          Society Panvel Raigad Ulwe 410206
+          Tejas Heights, Shop No. 10 , Plot No. 19, Sector 17, Ulwe, Navi
+          Mumbai, Maharashtra 410206
         </div>
 
         <Link
