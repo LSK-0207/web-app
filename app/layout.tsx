@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Geist, Geist_Mono, Poppins, Inter } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import TagLine from "@/components/TagLine";
-import { Analytics } from "@vercel/analytics/react";
+// import Navbar from "@/components/Navbar";
+// import Footer from "@/components/Footer";
+// import TagLine from "@/components/TagLine";
+// import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
 
 const geistSans = Geist({
@@ -49,11 +49,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased scroll-smooth`} // Add poppins variable
       >
-        <TagLine />
-        <Navbar />
+        {/* <TagLine /> */}
+        {/* <Navbar /> */}
         {children}
-        <Footer />
-        <Analytics />
+        {/* <Footer /> */}
+        {/* <Analytics /> */}
         <SpeedInsights />
       </body>
     </html>
